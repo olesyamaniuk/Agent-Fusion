@@ -12,8 +12,6 @@ $(function () {
     dots: false,
     centerMode: true,
     cssEase: 'linear',
-    prevArrow: '.gallery-list-left',
-    nextArrow: '.gallery-list-right',
   });
 });
 
@@ -27,11 +25,10 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1000,
-    dots: true,
+     dots: false,
     centerMode: true,
     cssEase: 'linear',
-    prevArrow: '.reviews-list-left',
-    nextArrow: '.reviews-list-right',
+
   });
 });
 
